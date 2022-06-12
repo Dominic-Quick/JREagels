@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: fit-content;
+    min-height: 160vh;
+    width: 100%;
+    background: teal;
+}
+
+#root{
+    height:fit-content;
+    width: 100%;
+    background: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background: url('../public/testHR.jpg');
+    background-repeat: no-repeat;
+    background-size:130%;
+    background-position: 40% 50%;
+    
+}
+
+.mainCon{
+    height: 170vh;
+    width: 60%; 
+    background: rgb(207, 195, 29);
+    box-shadow: 7px 0px 7px, -7px 0 7px;
+}
+
+.headerCon{
+    height: 30%;
+    background: gray;
+}
+
+.hTopCon{
+    height: 85%;
+    width: 100%;
+    background: url('../public/testTeam.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 15%;
+
+}
+
+.iconInMenu{
+    height: 100%;
+    width: 25%;
+    background: url('../public/icon.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.hBottomCon{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #131313;
+}
+
+.bL{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bR{
+    height: 100%;
+    width: 75%;
+    
+}
+
+.menu{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: whitesmoke;
+    list-style: none;
+}
+
+.mItem{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mItem a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.mItem a.active{
+    color: rgb(207, 195, 29);
+}
+
+.mItem a:hover{
+    color: rgb(207, 195, 29);
+    text-decoration: underline double;
+}
+
+.feedCon{
+    height: 70%;
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.anoCon{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 7px 0px 7px, -7px 0 7px;
+    font-size: 1em;
+    background: whitesmoke;
+}
+
+.anoLeft{
+    width: 25%;
+    height: 100%;
+    background-color: #131313;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.9rem; 
+    
+}
+
+.anoRight{
+    width: 75%;
+    height: 100%;
+    padding: 5% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+    text-align: center; 
+    /* background: ; */
+}
+
+.infoCon{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    border: none;
+    height: 100%;
+    width: 7%;
+    
+    background: rgba(128, 128, 128, 0.336);
+}
+
+.btn:hover{
+    background: rgba(128, 128, 128, 0.699);
+}
+
+.info{
+    width: 86%;
+    height: 100%;
+    padding: 0 5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutCon{
+    height: 30%;
+    width: 100%;
+    box-shadow: 7px 0px 7px, -7px 0 7px;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke;
+}
+
+.aboutLeft{
+    width: 75%;
+    height: 100%;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem; 
+    text-align: center;
+}
+
+.aboutRight{
+    width: 25%;
+    height: 100%;
+    background: #131313;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.9rem;
+}
+
+.coachCon{
+    height: 30%;
+    width: 100%;
+    box-shadow: 7px 0px 7px, -7px 0 7px;
+    background: url('../public/teastC.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0% 10%;
+}
+
+/* sign up page */
+
+.signUpCon{
+    height: 70%;
+    width: 100%;
+    padding: 5%;
+}
+
+.pageCon{
+    height: 100%;
+    width: 100%;
+    box-shadow: 7px 0px 7px, -7px 0 7px;
+    background:whitesmoke;
+}
+
